@@ -1,0 +1,31 @@
+[build-system]
+requires = ["setuptools>=61"]
+build-backend = "setuptools.build_meta"
+
+[project]
+name = "rca-reasoning"
+version = "2.0.0"
+description = "Structured chain-of-thought prompts and multi-hypothesis verification for LLM root cause analysis"
+readme = "README.md"
+license = { text = "Apache-2.0" }
+authors = [{ name = "OKESTRO Co., Ltd." }]
+requires-python = ">=3.9"
+dependencies = []
+keywords = ["aiops", "root-cause-analysis", "llm", "chain-of-thought", "prompt-engineering"]
+classifiers = [
+    "License :: OSI Approved :: Apache Software License",
+    "Programming Language :: Python :: 3",
+    "Topic :: System :: Monitoring",
+]
+
+[project.optional-dependencies]
+dev = ["pytest>=7"]
+
+[project.urls]
+Homepage = "https://github.com/OKESTRO-AICloudRecovery/rca-reasoning"
+
+[tool.setuptools]
+packages = ["rca_reasoning"]
+
+[tool.pytest.ini_options]
+testpaths = ["tests"]
