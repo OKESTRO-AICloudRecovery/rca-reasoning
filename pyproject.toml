@@ -9,7 +9,7 @@ description = "Structured chain-of-thought prompts and multi-hypothesis verifica
 readme = "README.md"
 license = { text = "Apache-2.0" }
 authors = [{ name = "OKESTRO Co., Ltd." }]
-requires-python = ">=3.9"
+requires-python = ">=3.10"
 dependencies = []
 keywords = ["aiops", "root-cause-analysis", "llm", "chain-of-thought", "prompt-engineering"]
 classifiers = [

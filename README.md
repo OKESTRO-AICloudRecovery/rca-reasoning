@@ -4,7 +4,7 @@ LLM이 장애 근본 원인을 **단계별로 추론하고 가설을 검증하�
 
 [![CI](https://github.com/OKESTRO-AICloudRecovery/rca-reasoning/actions/workflows/ci.yml/badge.svg)](https://github.com/OKESTRO-AICloudRecovery/rca-reasoning/actions/workflows/ci.yml)
 [![License](https://img.shields.io/badge/license-Apache--2.0-blue.svg)](LICENSE)
-![Python](https://img.shields.io/badge/python-3.9%2B-blue.svg)
+![Python](https://img.shields.io/badge/python-3.10%2B-blue.svg)
 
 관측 근거와 후보 순위를 그대로 LLM에 주면 그럴듯하지만 근거와 맞지 않는 결론이 나오기 쉽습니다.
 이 패키지는 장애 유형마다 "원인 서비스에서 반드시 보여야 할 신호 / 함께 보이면 강화되는 신호 / 호출자에 번지는 증상"을 정의해 두고,
